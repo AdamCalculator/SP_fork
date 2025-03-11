@@ -164,6 +164,13 @@
 			"hidden": true
 		},
 		{
+			"url": "merged_packs/qpack/c.json",
+			"hash": "226c4dc3866ced8a3906f97641d633760dad759a",
+			"id": "merged_packs_qpack",
+			"name": "[P] Q-pack (chase)",
+			"hidden": true
+		},
+		{
 			"url": "merged_packs/raider_strogo/c.json",
 			"hash": "89931ac7d0caff6de9f91c7bc4aa3f58e13dafbb",
 			"id": "merged_packs_raider_strogo",
@@ -210,6 +217,13 @@
 			"hash": "b01d53cf477664cf1bf7242575bb65f6f92815ce",
 			"id": "merged_packs_sprp",
 			"name": "[P] SP RolePlay (Вецкера)",
+			"hidden": true
+		},
+{
+			"url": "merged_packs/taobao/c.json",
+			"hash": "b01d53cf477664cf1bf7242575bb65f6f92815ce",
+			"id": "merged_packs_taobao",
+			"name": "[P] T'au (taobao.zip)",
 			"hidden": true
 		},
 		{
