@@ -5,7 +5,7 @@
 	"contents": [
 		{
 			"url": "sp_main/c.json",
-			"hash": "b815a302f233cae474d2a89cc917f2f1e160507e",
+			"hash": "fe433484f5a47f75010d5d179544a5975ca114ad",
 			"id": "sp_main",
 			"name": "§lСП пак",
 			"required": true
@@ -20,14 +20,14 @@
 		},
 		{
 			"url": "sp_main_models/c.json",
-			"hash": "52858c0cd3da8fd334a3baa82241cae7633ded97",
+			"hash": "9aa84f3d0c87cd77e92ba19aa37faa8138ef2b77",
 			"id": "sp_main_models",
 			"name": "minecraft/models",
 			"hidden": true
 		},
 		{
 			"url": "sp_splashes/c.json",
-			"hash": "95d48121c456b562cba3801bb146f217c78c1fc6",
+			"hash": "17aa00bf26ad66cb921a2998bccd8ba94ce88fe4",
 			"name": "§aСплэши (splashes.txt)",
 			"default_active": true,
 			"id": "sp_splashes"
@@ -90,7 +90,7 @@
 		},
 		{
 			"url": "merged_packs/city17/c.json",
-			"hash": "97fb7d8a5e5cee5dbbd3523621fce626f38a561f",
+			"hash": "aec26e823dacd63d916be203f5163d614be41224",
 			"id": "merged_packs_city17",
 			"name": "[P] City 17",
 			"hidden": true
@@ -124,14 +124,14 @@
 		},
 		{
 			"url": "merged_packs/galactic_empire_sp_pack/c.json",
-			"hash": "2b1e146897ee30b928e04107830ef8967c00558a",
+			"hash": "5b5f683debe35ecbd3a7e4d1c847c157535ca25b",
 			"id": "merged_packs_galactic_empire_sp_pack",
 			"name": "[P] Galactic Empire SP Pack",
 			"hidden": true
 		},
 		{
 			"url": "merged_packs/kotelok/c.json",
-			"hash": "e1f63a90dc92f0336efe4ab3404cf9899af63168",
+			"hash": "80adc8a4345784a6360ed4db19e04db7d6c3cc56",
 			"id": "merged_packs_kotelok",
 			"name": "[P] kotelok",
 			"hidden": true
@@ -165,7 +165,7 @@
 		},
 		{
 			"url": "merged_packs/qpack/c.json",
-			"hash": "226c4dc3866ced8a3906f97641d633760dad759a",
+			"hash": "8008eae1d3f8b62e4c6b2e23465b280c731e0216",
 			"id": "merged_packs_qpack",
 			"name": "[P] Q-pack (chase)",
 			"hidden": true
@@ -219,9 +219,9 @@
 			"name": "[P] SP RolePlay (Вецкера)",
 			"hidden": true
 		},
-{
+		{
 			"url": "merged_packs/taobao/c.json",
-			"hash": "b01d53cf477664cf1bf7242575bb65f6f92815ce",
+			"hash": "8008eae1d3f8b62e4c6b2e23465b280c731e0216",
 			"id": "merged_packs_taobao",
 			"name": "[P] T'au (taobao.zip)",
 			"hidden": true
@@ -249,7 +249,7 @@
 		},
 		{
 			"url": "merged_packs/warhammer/c.json",
-			"hash": "ade3cb0d916f5faa72b31d321596a7680a1acf6a",
+			"hash": "515934a4bb2c66b3bdb91ec34735530acbd50a25",
 			"id": "merged_packs_warhammer",
 			"name": "[P] War hammer",
 			"hidden": true
