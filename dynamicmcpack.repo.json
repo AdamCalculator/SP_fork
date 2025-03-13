@@ -150,6 +150,12 @@
 			"name": "§4Л§cе§6г§eе§2н§aд§3а§bр§1н§9о§dе§4 п§cе§6р§eо"
 		},
 		{
+			"url": "merged_packs/multicor/c.json",
+			"hash": "8b19e9adcfc73666923ff9c23abe9776e333a76e",
+			"id": "merged_packs_multicor",
+			"name": "[P] Мультикор"
+		},
+		{
 			"url": "merged_packs/nullcorp/c.json",
 			"hash": "bcbd7bc1c8f3440c32703a310aa6b33a63ace1e8",
 			"id": "merged_packs_nullcorp",
