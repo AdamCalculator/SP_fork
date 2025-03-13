@@ -4,7 +4,7 @@
 
 # Global options
 pack_directory = './pack'
-output_file_path = './amid_uncnsored_pack_optimized.zip'
+output_file_path = './anume_cafe_pack_optimized.zip'
 recompress_compressed_files = true
 zip_compression_iterations = 5
 automatic_minecraft_quirks_detection = true
