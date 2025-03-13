@@ -130,21 +130,3 @@ class CITResourcePackAnalyzer:
                     self.all_files.append(os.path.relpath(ppath, self.resourcepack_path))
                     if file.endswith(".properties"):
                         self._process_properties_file(root, file)
-
-
-
-
-# Пример использования
-resourcepack_path = "merged_packs/amid/uncensored"  # Замените на актуальный путь
-analyzer = CITResourcePackAnalyzer(resourcepack_path)
-
-analyzer.analyze()
-
-print("USED")
-print(json.dumps(analyzer.used_files, indent=2))
-
-print("MISSING")
-print(json.dumps(analyzer.missing_files, indent=2))
-
-print("NOT USED")
-print(json.dumps(sorted(analyzer.all_files - analyzer.used_files.keys()), indent=2))
