@@ -243,14 +243,17 @@ def processPropertiesFile(renamesFile, e):
 
         if 'model=./' in prop_content:
             prop_content = prop_content.replace("model=./", f"model=")
+            modified.append(f"./ in model")
             stat["removed_models_dot_slash"] += 1
 
         if '.png' in prop_content:
             prop_content = prop_content.replace(".png", f"")
+            modified.append(f".png")
             stat["removed_png_extension"] += 1
 
         if '.json' in prop_content:
             prop_content = prop_content.replace(".json", f"")
+            modified.append(f".json")
             stat["removed_json_extension"] += 1
 
 
