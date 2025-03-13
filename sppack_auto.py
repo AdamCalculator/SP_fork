@@ -214,7 +214,10 @@ stat = {
         "writings_on_disk": 0
     },
     "total_properties": 0,
-    "total_renames": 0
+    "total_renames": 0,
+    "removed_models_dot_slash": 0,
+    "removed_png_extension": 0,
+    "removed_json_extension": 0
 }
 
 def processPropertiesFile(renamesFile, e):
@@ -237,6 +240,19 @@ def processPropertiesFile(renamesFile, e):
             prop_content = prop_content.replace("components.minecraft\\:custom_name=", f"{CIT_KEY_NAME}=")
             modified.append(f"remove unnecessary minecraft namespace 'components.minecraft\\:custom_name' -> {CIT_KEY_LORE}")
             stat["merged_to_components"]["remove_minecraft_namespace"] += 1
+
+        if 'model=./' in prop_content:
+            prop_content = prop_content.replace("model=./", f"model=")
+            stat["removed_models_dot_slash"] += 1
+
+        if '.png' in prop_content:
+            prop_content = prop_content.replace(".png", f"")
+            stat["removed_png_extension"] += 1
+
+        if '.json' in prop_content:
+            prop_content = prop_content.replace(".json", f"")
+            stat["removed_json_extension"] += 1
+
 
         lines = []
         for x in prop_content.split("\n"):
